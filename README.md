@@ -1,2 +1,5 @@
 # oat-parser
-A tool to get the offsets of functions in OAT file
+
+The tool is used to analyze the OAT structure of base.odex, the app cache in Android 7. 
+
+The tool is implemented for the paper "Defending Application Cache Integrity of Android Runtime", which is published in ISPEC 2017.
