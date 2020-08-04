@@ -72,7 +72,7 @@ class OATParser {
 
         bool DoIV(const std::string signature, CompilerFilter::Filter filter);
 
-	bool ParseOatFile(const std::string read_file);
+	bool ParseOatFile(const std::string read_file, std::string c_);
 
 	bool TamperChecksum(const std::string tamper_file);
 

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/projects/oat-parser/StringPiece.cpp
+/projects/oat-parser-exec/StringPiece.cpp
 StringPiece.h
-/projects/oat-parser/StringPiece.h
+/projects/oat-parser-exec/StringPiece.h
 iostream
 -
 
-/projects/oat-parser/StringPiece.h
+/projects/oat-parser-exec/StringPiece.h
 string.h
 -
 string
@@ -20,13 +20,13 @@ string
 algorithm
 -
 
-/projects/oat-parser/art/compiler_filter.cpp
+/projects/oat-parser-exec/art/compiler_filter.cpp
 compiler_filter.h
-/projects/oat-parser/art/compiler_filter.h
+/projects/oat-parser-exec/art/compiler_filter.h
 string.h
 -
 
-/projects/oat-parser/art/compiler_filter.h
+/projects/oat-parser-exec/art/compiler_filter.h
 ostream
 -
 string
@@ -34,17 +34,17 @@ string
 vector
 -
 
-/projects/oat-parser/base/bit_vector.h
+/projects/oat-parser-exec/base/bit_vector.h
 stdint.h
 -
 iterator
 -
 
-/projects/oat-parser/dex/dex_file.h
+/projects/oat-parser-exec/dex/dex_file.h
 memory
 -
 
-/projects/oat-parser/dex/dex_file_types.h
+/projects/oat-parser-exec/dex/dex_file_types.h
 iosfwd
 -
 limits
@@ -52,23 +52,23 @@ limits
 utility
 -
 
-/projects/oat-parser/dex/type_lookup_table.h
+/projects/oat-parser-exec/dex/type_lookup_table.h
 dex_file_types.h
-/projects/oat-parser/dex/dex_file_types.h
+/projects/oat-parser-exec/dex/dex_file_types.h
 memory
 -
 
-/projects/oat-parser/elf/elfcpp.h
+/projects/oat-parser-exec/elf/elfcpp.h
 elfcpp_swap.h
-/projects/oat-parser/elf/elfcpp_swap.h
+/projects/oat-parser-exec/elf/elfcpp_swap.h
 stdint.h
 -
 string.h
 -
 elfcpp_internal.h
-/projects/oat-parser/elf/elfcpp_internal.h
+/projects/oat-parser-exec/elf/elfcpp_internal.h
 
-/projects/oat-parser/elf/elfcpp_file.h
+/projects/oat-parser-exec/elf/elfcpp_file.h
 string
 -
 cstdio
@@ -76,27 +76,27 @@ cstdio
 cstring
 -
 elfcpp.h
-/projects/oat-parser/elf/elfcpp.h
+/projects/oat-parser-exec/elf/elfcpp.h
 
-/projects/oat-parser/elf/elfcpp_internal.h
+/projects/oat-parser-exec/elf/elfcpp_internal.h
 
-/projects/oat-parser/elf/elfcpp_swap.h
+/projects/oat-parser-exec/elf/elfcpp_swap.h
 stdint.h
 -
 byteswap.h
 -
 
-/projects/oat-parser/elf/elfloader.cpp
+/projects/oat-parser-exec/elf/elfloader.cpp
 iomanip
 -
 elfcpp.h
-/projects/oat-parser/elf/elfcpp.h
+/projects/oat-parser-exec/elf/elfcpp.h
 elfcpp_file.h
-/projects/oat-parser/elf/elfcpp_file.h
+/projects/oat-parser-exec/elf/elfcpp_file.h
 map_file.h
-/projects/oat-parser/elf/map_file.h
+/projects/oat-parser-exec/elf/map_file.h
 
-/projects/oat-parser/elf/map_file.h
+/projects/oat-parser-exec/elf/map_file.h
 stdarg.h
 -
 fcntl.h
@@ -106,11 +106,11 @@ sys/mman.h
 sys/unistd.h
 -
 
-/projects/oat-parser/main.cpp
+/projects/oat-parser-exec/main.cpp
 StringPiece.h
-/projects/oat-parser/StringPiece.h
+/projects/oat-parser-exec/StringPiece.h
 oatparser.h
-/projects/oat-parser/oatparser.h
+/projects/oat-parser-exec/oatparser.h
 unistd.h
 -
 stdio.h
@@ -120,13 +120,13 @@ sys/stat.h
 iostream
 -
 
-/projects/oat-parser/oat/DexHeader.h
+/projects/oat-parser-exec/oat/DexHeader.h
 stdint.h
 -
 stddef.h
 -
 
-/projects/oat-parser/oat/OATHeader.cpp
+/projects/oat-parser-exec/oat/OATHeader.cpp
 string.h
 -
 stdint.h
@@ -136,19 +136,19 @@ array
 vector
 -
 instruction_set.h
-/projects/oat-parser/oat/instruction_set.h
+/projects/oat-parser-exec/oat/instruction_set.h
 OATHeader.h
-/projects/oat-parser/oat/OATHeader.h
+/projects/oat-parser-exec/oat/OATHeader.h
 
-/projects/oat-parser/oat/OATHeader.h
+/projects/oat-parser-exec/oat/OATHeader.h
 ../art/compiler_filter.h
-/projects/oat-parser/art/compiler_filter.h
+/projects/oat-parser-exec/art/compiler_filter.h
 index_bss_mapping.h
-/projects/oat-parser/oat/index_bss_mapping.h
+/projects/oat-parser-exec/oat/index_bss_mapping.h
 ../dex/type_lookup_table.h
-/projects/oat-parser/dex/type_lookup_table.h
+/projects/oat-parser-exec/dex/type_lookup_table.h
 ../dex/dex_file.h
-/projects/oat-parser/dex/dex_file.h
+/projects/oat-parser-exec/dex/dex_file.h
 array
 -
 vector
@@ -156,7 +156,7 @@ vector
 stdio.h
 -
 
-/projects/oat-parser/oat/OATParser.cpp
+/projects/oat-parser-exec/oat/OATParser.cpp
 stdio.h
 -
 iostream
@@ -178,21 +178,21 @@ sys/stat.h
 sys/types.h
 -
 OATParser.h
-/projects/oat-parser/oat/OATParser.h
+/projects/oat-parser-exec/oat/OATParser.h
 DexHeader.h
-/projects/oat-parser/oat/DexHeader.h
+/projects/oat-parser-exec/oat/DexHeader.h
 OATHeader.h
-/projects/oat-parser/oat/OATHeader.h
+/projects/oat-parser-exec/oat/OATHeader.h
 elfloader.h
-/projects/oat-parser/oat/elfloader.h
+/projects/oat-parser-exec/oat/elfloader.h
 ../zlib/zlib.h
-/projects/oat-parser/zlib/zlib.h
+/projects/oat-parser-exec/zlib/zlib.h
 instruction_set.h
-/projects/oat-parser/oat/instruction_set.h
+/projects/oat-parser-exec/oat/instruction_set.h
 ../base/bit_vector.h
-/projects/oat-parser/base/bit_vector.h
+/projects/oat-parser-exec/base/bit_vector.h
 
-/projects/oat-parser/oat/OATParser.h
+/projects/oat-parser-exec/oat/OATParser.h
 string
 -
 map
@@ -204,31 +204,31 @@ list
 bits/unique_ptr.h
 -
 OATHeader.h
-/projects/oat-parser/oat/OATHeader.h
+/projects/oat-parser-exec/oat/OATHeader.h
 class_status.h
-/projects/oat-parser/oat/class_status.h
+/projects/oat-parser-exec/oat/class_status.h
 ../art/compiler_filter.h
-/projects/oat-parser/art/compiler_filter.h
+/projects/oat-parser-exec/art/compiler_filter.h
 
-/projects/oat-parser/oat/class_status.h
+/projects/oat-parser-exec/oat/class_status.h
 
-/projects/oat-parser/oat/elfloader.h
+/projects/oat-parser-exec/oat/elfloader.h
 
-/projects/oat-parser/oat/index_bss_mapping.h
+/projects/oat-parser-exec/oat/index_bss_mapping.h
 
-/projects/oat-parser/oat/instruction_set.h
+/projects/oat-parser-exec/oat/instruction_set.h
 iosfwd
 -
 string
 -
 
-/projects/oat-parser/oatparser.h
+/projects/oat-parser-exec/oatparser.h
 art/compiler_filter.h
-/projects/oat-parser/art/compiler_filter.h
+/projects/oat-parser-exec/art/compiler_filter.h
 string
 -
 
-/projects/oat-parser/zlib/zconf.h
+/projects/oat-parser-exec/zlib/zconf.h
 windows.h
 -
 limits.h
@@ -244,7 +244,7 @@ unistd.h
 unixio.h
 -
 
-/projects/oat-parser/zlib/zlib.h
+/projects/oat-parser-exec/zlib/zlib.h
 zconf.h
-/projects/oat-parser/zlib/zconf.h
+/projects/oat-parser-exec/zlib/zconf.h
 

@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/projects/oat-parser/zlib/adler32.c" "/projects/oat-parser/CMakeFiles/oatparser.dir/zlib/adler32.c.o"
+  "/projects/oat-parser-exec/zlib/adler32.c" "/projects/oat-parser-exec/CMakeFiles/oatparser.dir/zlib/adler32.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -13,12 +13,12 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/projects/oat-parser/StringPiece.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/StringPiece.cpp.o"
-  "/projects/oat-parser/art/compiler_filter.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/art/compiler_filter.cpp.o"
-  "/projects/oat-parser/elf/elfloader.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/elf/elfloader.cpp.o"
-  "/projects/oat-parser/main.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/main.cpp.o"
-  "/projects/oat-parser/oat/OATHeader.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/oat/OATHeader.cpp.o"
-  "/projects/oat-parser/oat/OATParser.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/oat/OATParser.cpp.o"
+  "/projects/oat-parser-exec/StringPiece.cpp" "/projects/oat-parser-exec/CMakeFiles/oatparser.dir/StringPiece.cpp.o"
+  "/projects/oat-parser-exec/art/compiler_filter.cpp" "/projects/oat-parser-exec/CMakeFiles/oatparser.dir/art/compiler_filter.cpp.o"
+  "/projects/oat-parser-exec/elf/elfloader.cpp" "/projects/oat-parser-exec/CMakeFiles/oatparser.dir/elf/elfloader.cpp.o"
+  "/projects/oat-parser-exec/main.cpp" "/projects/oat-parser-exec/CMakeFiles/oatparser.dir/main.cpp.o"
+  "/projects/oat-parser-exec/oat/OATHeader.cpp" "/projects/oat-parser-exec/CMakeFiles/oatparser.dir/oat/OATHeader.cpp.o"
+  "/projects/oat-parser-exec/oat/OATParser.cpp" "/projects/oat-parser-exec/CMakeFiles/oatparser.dir/oat/OATParser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

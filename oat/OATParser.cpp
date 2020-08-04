@@ -201,6 +201,7 @@ static bool ReadIndexBssMapping(OATParser* oat_file,
     int16_t status = *reinterpret_cast<const int16_t*>(status_pointer);
     //std::cout<<oat_class_pointer<<":"<<as_integer(status)<<std::endl; 
     std::cout<<"Status: "<<status<<std::endl;// 
+    std::cout<<"Class Offset: "<<oat_class_offset<<std::endl;// 
 
     const uint8_t* type_pointer = status_pointer + sizeof(uint16_t);
     OatClassType type = static_cast<OatClassType>(*reinterpret_cast<const uint16_t*>(type_pointer));//check compilation
@@ -211,14 +212,17 @@ static bool ReadIndexBssMapping(OATParser* oat_file,
     const uint8_t* methods_pointer = nullptr;
     if (type != kOatClassNoneCompiled){
       if (type == kOatClassSomeCompiled) {
-	printf("It's somecompiled\n");
-        bitmap_size = static_cast<uint32_t>(*reinterpret_cast<const uint32_t*>(after_type_pointer));
-        bitmap_pointer = after_type_pointer + sizeof(bitmap_size);
-	methods_pointer = bitmap_pointer + bitmap_size;
-      } else {
-	printf("It's Allcompiled\n");
-        methods_pointer = after_type_pointer;
-      }
+            printf("It's Somecompiled. \n");
+            bitmap_size = static_cast<uint32_t>(*reinterpret_cast<const uint32_t*>(after_type_pointer));
+            bitmap_pointer = after_type_pointer + sizeof(bitmap_size);
+	    methods_pointer = bitmap_pointer + bitmap_size;
+        } else {
+	        printf("It's Allcompiled. \n");
+            methods_pointer = after_type_pointer;
+        }
+    }
+    else {
+        printf("It's Nonecompiled. \n");
     }
     return OATParser::OatClass(oat_file_,
                            status,
@@ -232,7 +236,7 @@ static bool ReadIndexBssMapping(OATParser* oat_file,
 const OatMethodOffsets* OATParser::OatClass::GetOatMethodOffsets(uint32_t method_index) const {
   // NOTE: We don't keep the number of methods and cannot do a bounds check for method_index.
   if (methods_pointer_ == nullptr) {
-    printf("None index.\n");
+    //printf("None index.\n");
     return nullptr;
   }
   size_t methods_pointer_index;
@@ -264,7 +268,7 @@ const OATParser::OatMethod OATParser::OatClass::GetOatMethod(uint32_t method_ind
   // version.
 
     //Get checksum from oatdexfile
-bool OATParser::ParseOatFile(const std::string read_file) {
+bool OATParser::ParseOatFile(const std::string read_file,std::string c_) {
         m_oat_file = read_file;
 
          std::unique_ptr<char[]> buf;
@@ -293,17 +297,20 @@ bool OATParser::ParseOatFile(const std::string read_file) {
         }
 
         InstructionSet iset = GetOatHeader()->GetInstructionSet();
-        //std::cout << "Oat instruction set: " << static_cast<int>(iset) << std::endl;
+        std::cout << "Oat instruction set: " << static_cast<int>(iset) << std::endl;
 
         // 跳过一些key-value的存储值
         uint32_t hs = GetOatHeader()->GetKeyValueStoreSize();
 
         const char *compilerFilter = GetCompilerFilter(oat, hs);
         std::cout << "Oat compilter filter: " << compilerFilter << std::endl;
+	printf("\n");
+        //printf("Oat compilter filter: %s\n",compilerFilter);
 
         oat += hs;
 
         if (oat > End()) {
+	    std::cout<<"oat>end "<<std::endl;
             return false;
         }
 
@@ -323,8 +330,9 @@ bool OATParser::ParseOatFile(const std::string read_file) {
         //return false;
   	//}
 	uint32_t dex_file_count = GetOatHeader()->GetDexFileCount();
-        //oat_dex_files_storage_.reserve(dex_file_count);
-	std::cout<<"dex_file_count: "<<dex_file_count<<std::endl;
+        oat_dex_files_storage_.reserve(dex_file_count);
+	//std::cout<<"dex_file_count: "<<dex_file_count<<std::endl;
+	printf("dex_file_count: %d\n",dex_file_count);
         for (size_t i = 0; i < dex_file_count; i++) {
 	  uint32_t dex_file_location_size;
           if (!ReadOatDexFileData(this, &oat, &dex_file_location_size))
@@ -338,6 +346,7 @@ bool OATParser::ParseOatFile(const std::string read_file) {
          oat += dex_file_location_size;
 	 std::string oat_dex_file_location(dex_file_location_data, dex_file_location_size);// Location encoded in the oat file. 
          std::cout<<"oat_dex_file_location:"<<oat_dex_file_location<<std::endl;
+         printf("oat_dex_file_location:",oat_dex_file_location);
          std::string dex_file_name;
          std::string dex_file_location;
 	 //ResolveRelativeEncodedDexLocation(abs_dex_location,
@@ -373,9 +382,6 @@ bool OATParser::ParseOatFile(const std::string read_file) {
              }//uncompressed_dex_files_ == nullptr
         }
 	
-//        if(!ReadOatDexFileData(*this,&oat,&dex_file_offset))
-//        printf("Read dex_file_location_size error!,%d,%s",i,dex_file_location.c_str());
-//
 	 uint32_t class_offsets_offset;
          if(!ReadOatDexFileData(this,&oat,&class_offsets_offset))
          {
@@ -436,15 +442,27 @@ bool OATParser::ParseOatFile(const std::string read_file) {
         oat_dex_files_storage_.push_back(oat_dex_file);
 	printf("create OatDexFile:%d\n",oat_dex_files_storage_.size());
 
-	printf("==============Method Parser Start==================\n");
-	for(int index=0;index<1;index++){
-	  OatClass oatcls = oat_dex_file->GetOatClass(index);
-	  printf("OatClass %d:%x\n",index);
-          uint32_t method_index = 0;
-          OatMethod m = oatcls.GetOatMethod(method_index);	  
-	  printf("OatMethod %d: %x\n", method_index,m.GetOffset());
+	if(c_.empty()){
+	  printf("==============Method Parser Start==================\n");
+	  for(int index=0;index<22;index++){
+	    OatClass oatcls = oat_dex_file->GetOatClass(index);
+	    printf("OatClass %d:%x\n",index+1);
+	    for(uint32_t method_index = 0;method_index<8;method_index++)
+	    {
+	      OatMethod m = oatcls.GetOatMethod(method_index);	  
+	      printf("OatMethod %d: %x,%d\n", method_index+1,m.GetOffset(),m.GetOffset());
+	    }
+	  }
+	  printf("===============Method Parser Finished==============\n");
+	  }
+	else{
+	  int class_index;
+	  int method_index;
+	  sscanf(c_.c_str(),"%d,%d",&class_index,&method_index);
+	  OatClass oatcls = oat_dex_file->GetOatClass(class_index);
+	  OatMethod m = oatcls.GetOatMethod(method_index);
+	  printf("OatMethod %d: %x,%d\n", method_index+1,m.GetOffset(),m.GetOffset());
 	}
-	printf("===============Method Parser Finished==============\n");
     }//for
 	 return true;
   }//func
@@ -455,7 +473,7 @@ extern "C" bool InitOatParser(const char *oat_file, const char *out_dex_path) {
     Art::OATParser::GetInstance().init(oat_file, out_dex_path);
     return true;
 }
-extern "C" bool ParseOatFile(const std::string read_file) {
-    return Art::OATParser::GetInstance().ParseOatFile(read_file);
+extern "C" bool ParseOatFile(const std::string read_file,std::string c_) {
+    return Art::OATParser::GetInstance().ParseOatFile(read_file,c_);
 }
 

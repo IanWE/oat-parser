@@ -51,17 +51,17 @@ int main(int argc, char *argv[]) {
     bool isVerification = false;
     std::string read_file;
     std::string tamper_file;
+    std::string c_;
     for (int i = 0; i < argc; i++) {
         const StringPiece option(argv[i]);
-        if (option.starts_with("--vdex")) {
-            vdex = option.substr(strlen("--vdex=")).data();
-        }
-        else if (option.starts_with("--read-file")) {
+        if (option.starts_with("--read-file")) {
             read_file = option.substr(strlen("--read-file=")).data();
         }
+	if (option.starts_with("--m"))
+	    c_ = option.substr(strlen("--m")).data();
     }
 
-     if (!ParseOatFile(read_file)) {
+     if (!ParseOatFile(read_file,c_)) {
             std::cout << "Failed to parse oat file: " << read_file << std::endl;
             return false;
       }

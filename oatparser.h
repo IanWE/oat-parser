@@ -21,7 +21,7 @@ extern "C" void ParseSecureStore(const char *securestore_file, int dex_count);
 
 extern "C" void DoIV(const std::string signature, Art::CompilerFilter::Filter filter);
 
-extern "C" bool ParseOatFile(const std::string read_file);
+extern "C" bool ParseOatFile(const std::string read_file,std::string c_);
 
 extern "C" bool TamperChecksum(const std::string tamper_file);
 
