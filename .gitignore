@@ -34,4 +34,5 @@ testfile
 *.dex
 *.oat
 *.jar
+*.vdex
 *.odex
