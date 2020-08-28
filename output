@@ -1,0 +1,1117 @@
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 18
+oat_dex_file_location:/system/framework/am.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 948
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/am.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 31
+oat_dex_file_location:/system/framework/android.hidl.base-V1.0-java.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 848
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/android.hidl.base-V1.0-java.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 34
+oat_dex_file_location:/system/framework/android.hidl.manager-V1.0-java.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 948
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/android.hidl.manager-V1.0-java.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 27
+oat_dex_file_location:/system/framework/android.test.mock.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 952
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/android.test.mock.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 29
+oat_dex_file_location:/system/framework/android.test.runner.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 1532
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/android.test.runner.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-android.test.base.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 27
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-android.test.base.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-apache-xml.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 16384
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 30
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-apache-xml.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex.art
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-bouncycastle.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 49152
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 32
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-bouncycastle.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-core-libart.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 294912
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 31
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-core-libart.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-ext.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 16384
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 19
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-ext.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-framework.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 352256
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 3
+dex_file_location_size 1f
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+dex_file_location_size 2c
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:2
+dex_file_location_size 2c
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:3
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-framework.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-ims-common.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 20
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-ims-common.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 753664
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: speed-profile
+
+dex_file_count: 1
+dex_file_location_size 2d
+oat_dex_file_location:/apex/com.android.runtime/javalib/core-oj.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 47760
+OatClassType:0
+It's Allcompiled. 
+OatMethod 1-1-1: cc2d0,836304
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-okhttp.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 57344
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 2c
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Somecompiled. 
+OatMethod 1-1-1: e010,57360
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-okhttp.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-telephony-common.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 28672
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 26
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-telephony-common.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-voip-common.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 21
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/apex-voip-common.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 1f
+oat_dex_file_location:/system/framework/appwidget.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 812
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/appwidget.vdex
+Failed to parse oat file: testfile/arm64/arm64
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 1a
+oat_dex_file_location:/system/framework/bmgr.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 932
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/bmgr.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-android.test.base.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 27
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-android.test.base.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-apache-xml.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 16384
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 30
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-apache-xml.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot.art
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-bouncycastle.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 49152
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 32
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-bouncycastle.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-core-libart.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 294912
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 31
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-core-libart.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-ext.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 32768
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 19
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Somecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-ext.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-framework.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 2650112
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 3
+dex_file_location_size 1f
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+dex_file_location_size 2c
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:2
+dex_file_location_size 2c
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:3
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-framework.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-ims-common.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 16384
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 20
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Somecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-ims-common.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 753664
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: speed-profile
+
+dex_file_count: 1
+dex_file_location_size 2d
+oat_dex_file_location:/apex/com.android.runtime/javalib/core-oj.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 47760
+OatClassType:0
+It's Allcompiled. 
+OatMethod 1-1-1: cc2d0,836304
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-okhttp.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 57344
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 2c
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Somecompiled. 
+OatMethod 1-1-1: e010,57360
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-okhttp.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-telephony-common.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 401408
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 26
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-telephony-common.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-voip-common.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: 
+dex_file_count: 1
+dex_file_location_size 21
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/boot-voip-common.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 18
+oat_dex_file_location:/system/framework/bu.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 776
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/bu.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 36
+oat_dex_file_location:/system/framework/com.android.future.usb.accessory.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 788
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/com.android.future.usb.accessory.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 8192
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: speed
+
+dex_file_count: 1
+dex_file_location_size 33
+oat_dex_file_location:/system/framework/com.android.location.provider.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 1100
+OatClassType:0
+It's Allcompiled. 
+OatMethod 1-1-1: 2010,8208
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/com.android.location.provider.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 31
+oat_dex_file_location:/system/framework/com.android.mediadrm.signer.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 808
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/com.android.mediadrm.signer.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 35
+oat_dex_file_location:/system/framework/com.android.media.remotedisplay.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 812
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/com.android.media.remotedisplay.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 2c
+oat_dex_file_location:/system/framework/com.android.nfc_extras.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 928
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/com.android.nfc_extras.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 3b
+oat_dex_file_location:/system/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 1452
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/com.qualcomm.qti.uceservice-V2.0-java.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 1d
+oat_dex_file_location:/system/framework/content.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 940
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/content.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 19
+oat_dex_file_location:/system/framework/dpm.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 776
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/dpm.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 16384
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: speed
+
+dex_file_count: 1
+dex_file_location_size 26
+oat_dex_file_location:/system/framework/ethernet-service.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 1124
+OatClassType:1
+It's Somecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/ethernet-service.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 19
+oat_dex_file_location:/system/framework/hid.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 860
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/hid.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 1b
+oat_dex_file_location:/system/framework/input.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 936
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/input.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 20
+oat_dex_file_location:/system/framework/javax.obex.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 1120
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/javax.obex.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 22
+oat_dex_file_location:/system/framework/locksettings.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 788
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/locksettings.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 1b
+oat_dex_file_location:/system/framework/media.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 848
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/media.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 1c
+oat_dex_file_location:/system/framework/monkey.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 2124
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/monkey.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 77824
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: speed-profile
+
+dex_file_count: 1
+dex_file_location_size 2c
+oat_dex_file_location:/system/framework/org.apache.http.legacy.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 6668
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/org.apache.http.legacy.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 1f
+oat_dex_file_location:/system/framework/qcrilhook.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 3364
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/qcrilhook.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 30
+oat_dex_file_location:/system/framework/QtiTelephonyServicelibrary.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 1484
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/QtiTelephonyServicelibrary.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 21
+oat_dex_file_location:/system/framework/requestsync.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 852
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/requestsync.vdex
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/services.art
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 5734400
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: speed
+
+dex_file_count: 2
+dex_file_location_size 1e
+oat_dex_file_location:/system/framework/services.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 0
+Class Offset: 99020
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+dex_file_location_size 2b
+oat_dex_file_location:/system/framework/services.jar!classes2.dex
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:2
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/services.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 18
+oat_dex_file_location:/system/framework/sm.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 808
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/sm.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 19
+oat_dex_file_location:/system/framework/svc.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 932
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/svc.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 1d
+oat_dex_file_location:/system/framework/telecom.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 776
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/telecom.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 8192
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 21
+oat_dex_file_location:/system/framework/uiautomator.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 6392
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/uiautomator.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 39
+oat_dex_file_location:/system/framework/vendor.qti.hardware.alarm-V1.0-java.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 860
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/vendor.qti.hardware.alarm-V1.0-java.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 40
+oat_dex_file_location:/system/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 1104
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/vendor.qti.hardware.data.latency-V1.0-java.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 39
+oat_dex_file_location:/system/framework/vendor.qti.hardware.soter-V1.0-java.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 1104
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/vendor.qti.hardware.soter-V1.0-java.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 37
+oat_dex_file_location:/system/framework/vendor.qti.ims.callinfo-V1.0-java.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 940
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/vendor.qti.ims.callinfo-V1.0-java.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 35
+oat_dex_file_location:/system/framework/vendor.qti.voiceprint-V1.0-java.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 1124
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/vendor.qti.voiceprint-V1.0-java.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 4096
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: quicken
+
+dex_file_count: 1
+dex_file_location_size 18
+oat_dex_file_location:/system/framework/vr.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 12
+Class Offset: 776
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/vr.vdex
+ELF size: 64, big_endian: little_endian
+file offset 4096 and data size 1167360
+OatReSet rodata: 4096
+Oat instruction set: 2
+Oat compilter filter: speed
+
+dex_file_count: 1
+dex_file_location_size 22
+oat_dex_file_location:/system/framework/wifi-service.jar
+oat_dex_file_location:dex_file_offset 0
+create OatDexFile:1
+Status: 14
+Class Offset: 25272
+OatClassType:2
+It's Nonecompiled. 
+Method 0 is null
+OatMethod 1-1-1: 0,0
+This is not an ELF file
+Failed to parse oat file: testfile/arm64/wifi-service.vdex

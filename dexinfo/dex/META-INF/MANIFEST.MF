@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
-Created-By: soong_zip
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 3.5.3
 

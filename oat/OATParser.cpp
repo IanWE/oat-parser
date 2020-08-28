@@ -346,14 +346,13 @@ bool OATParser::ParseOatFile(const std::string read_file,std::string c_) {
          oat += dex_file_location_size;
 	 std::string oat_dex_file_location(dex_file_location_data, dex_file_location_size);// Location encoded in the oat file. 
          std::cout<<"oat_dex_file_location:"<<oat_dex_file_location<<std::endl;
-         printf("oat_dex_file_location:",oat_dex_file_location);
+         printf("oat_dex_file_location:\n",oat_dex_file_location);
          std::string dex_file_name;
          std::string dex_file_location;
 	 //ResolveRelativeEncodedDexLocation(abs_dex_location,
          //                         oat_dex_file_location,
          //                         &dex_file_location,
          //                         &dex_file_name);
-
 	 uint32_t dex_file_checksum;
 	 if(!ReadOatDexFileData(this,&oat,&dex_file_checksum))
 	 {
@@ -441,28 +440,37 @@ bool OATParser::ParseOatFile(const std::string read_file,std::string c_) {
           dex_layout_sections);
         oat_dex_files_storage_.push_back(oat_dex_file);
 	printf("create OatDexFile:%d\n",oat_dex_files_storage_.size());
-
+	printf("==============Method Parser Start==================\n");
 	if(c_.empty()){
-	  printf("==============Method Parser Start==================\n");
-	  for(int index=0;index<22;index++){
+	  for(int index=67;index<68;index++){
 	    OatClass oatcls = oat_dex_file->GetOatClass(index);
 	    printf("OatClass %d:%x\n",index+1);
-	    for(uint32_t method_index = 0;method_index<8;method_index++)
+	    for(uint32_t method_index = 16;method_index<100;method_index++)
 	    {
 	      OatMethod m = oatcls.GetOatMethod(method_index);	  
 	      printf("OatMethod %d: %x,%d\n", method_index+1,m.GetOffset(),m.GetOffset());
 	    }
 	  }
-	  printf("===============Method Parser Finished==============\n");
-	  }
+	}
 	else{
+	  int dex_index;
 	  int class_index;
 	  int method_index;
-	  sscanf(c_.c_str(),"%d,%d",&class_index,&method_index);
-	  OatClass oatcls = oat_dex_file->GetOatClass(class_index);
+	  sscanf(c_.c_str(),"%d-%d-%d",&dex_index,&class_index,&method_index);
+	  if(dex_index!=oat_dex_files_storage_.size()-1)
+	    continue;
+	  if(method_index>9999){
+	    OatClass oatcls = oat_dex_file->GetOatClass(class_index);
+	    for(int i=0;i<20;i++){
+              OatMethod m = oatcls.GetOatMethod(i);
+              printf("OatMethod %d: %x,%d\n", i+1,m.GetOffset(),m.GetOffset());
+	    }
+	  }
+	  OatClass oatcls = oat_dex_files_storage_[dex_index]->GetOatClass(class_index);
 	  OatMethod m = oatcls.GetOatMethod(method_index);
-	  printf("OatMethod %d: %x,%d\n", method_index+1,m.GetOffset(),m.GetOffset());
+	  printf("OatMethod %d-%d-%d: %x,%d\n", dex_index+1,class_index+1,method_index+1,m.GetOffset(),m.GetOffset());
 	}
+	printf("===============Method Parser Finished==============\n");
     }//for
 	 return true;
   }//func

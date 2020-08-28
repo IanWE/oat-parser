@@ -36,3 +36,5 @@ testfile
 *.jar
 *.vdex
 *.odex
+dexinfo/dex
+*.so

@@ -11,7 +11,7 @@
 static void usage() {
     fprintf(stderr,
             "Usage: oatparser [options] ...\n"
-                    "    Example: oatparser --read-file=base.odex\n"
+                    "    Example: oatparser --read-file=base.odex -m=0-0-0\n"
                     "\n");
 }
 
@@ -58,7 +58,7 @@ int main(int argc, char *argv[]) {
             read_file = option.substr(strlen("--read-file=")).data();
         }
 	if (option.starts_with("--m"))
-	    c_ = option.substr(strlen("--m")).data();
+	    c_ = option.substr(strlen("--m=")).data();
     }
 
      if (!ParseOatFile(read_file,c_)) {

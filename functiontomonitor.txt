@@ -1,0 +1,32 @@
+"/system/framework/oat/arm64/services.odex"
+dex 0 class 598 (LocationManagerService.java)
+direct method 92 = updateLastLocationLocked  //for location
+
+dex 1 class 4391 ContactsContract.java
+direct method 3 = getLookupUri
+
+dex 0 Class 1464 (SmsMessageBase.java
+getIndexOnIcc
+
+dex 0 class 
+[] Class 2821 (ContentResolver.java)
+createSqlQueryBundle
+
+
+-------------------
+
+] Class 3329 (CameraCharacteristics.java)
+4 get| can only capture system camera and snapchat
+
+[] Class 1185 (Camera.java)
+getLocationX
+
+[] Class 1398 (Camera.java)
+setHasPreviewCallback
+
+AudioManager.java_GetDevicesStatic
+
+
+CameraManager.java_connectCameraServiceLocked
+
+libaudioclient.so _ZN7android5media12IAudioRecordC2Ev

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /projects/oat-parser-exec
+CMAKE_SOURCE_DIR = /projects/oat-parser
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /projects/oat-parser-exec
+CMAKE_BINARY_DIR = /projects/oat-parser
 
 #=============================================================================
 # Target rules for target CMakeFiles/oatparser.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /projects/oat-parser-exec
 CMakeFiles/oatparser.dir/all:
 	$(MAKE) -f CMakeFiles/oatparser.dir/build.make CMakeFiles/oatparser.dir/depend
 	$(MAKE) -f CMakeFiles/oatparser.dir/build.make CMakeFiles/oatparser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/projects/oat-parser-exec/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target oatparser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/projects/oat-parser/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target oatparser"
 .PHONY : CMakeFiles/oatparser.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/oatparser.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/oatparser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /projects/oat-parser-exec/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /projects/oat-parser/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/oatparser.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /projects/oat-parser-exec/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /projects/oat-parser/CMakeFiles 0
 .PHONY : CMakeFiles/oatparser.dir/rule
 
 # Convenience name for target.
