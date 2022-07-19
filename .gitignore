@@ -1,5 +1,7 @@
 # Prerequisites
 *.d
+framework/
+so/
 
 # Compiled Object files
 *.slo
