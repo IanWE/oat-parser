@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/projects/oat-parser/zlib/adler32.c
+/home/ian/workspace/ian/oat-parser/zlib/adler32.c
 zutil.h
-/projects/oat-parser/zlib/zutil.h
+/home/ian/workspace/ian/oat-parser/zlib/zutil.h
 
-/projects/oat-parser/zlib/zconf.h
+/home/ian/workspace/ian/oat-parser/zlib/zconf.h
 windows.h
 -
 limits.h
@@ -26,13 +26,13 @@ unistd.h
 unixio.h
 -
 
-/projects/oat-parser/zlib/zlib.h
+/home/ian/workspace/ian/oat-parser/zlib/zlib.h
 zconf.h
-/projects/oat-parser/zlib/zconf.h
+/home/ian/workspace/ian/oat-parser/zlib/zconf.h
 
-/projects/oat-parser/zlib/zutil.h
+/home/ian/workspace/ian/oat-parser/zlib/zutil.h
 zlib.h
-/projects/oat-parser/zlib/zlib.h
+/home/ian/workspace/ian/oat-parser/zlib/zlib.h
 stddef.h
 -
 string.h

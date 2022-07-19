@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/projects/oat-parser/zlib/adler32.c" "/projects/oat-parser/CMakeFiles/oatparser.dir/zlib/adler32.c.o"
+  "/home/ian/workspace/ian/oat-parser/zlib/adler32.c" "/home/ian/workspace/ian/oat-parser/CMakeFiles/oatparser.dir/zlib/adler32.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -13,12 +13,12 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/projects/oat-parser/StringPiece.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/StringPiece.cpp.o"
-  "/projects/oat-parser/art/compiler_filter.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/art/compiler_filter.cpp.o"
-  "/projects/oat-parser/elf/elfloader.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/elf/elfloader.cpp.o"
-  "/projects/oat-parser/main.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/main.cpp.o"
-  "/projects/oat-parser/oat/OATHeader.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/oat/OATHeader.cpp.o"
-  "/projects/oat-parser/oat/OATParser.cpp" "/projects/oat-parser/CMakeFiles/oatparser.dir/oat/OATParser.cpp.o"
+  "/home/ian/workspace/ian/oat-parser/StringPiece.cpp" "/home/ian/workspace/ian/oat-parser/CMakeFiles/oatparser.dir/StringPiece.cpp.o"
+  "/home/ian/workspace/ian/oat-parser/art/compiler_filter.cpp" "/home/ian/workspace/ian/oat-parser/CMakeFiles/oatparser.dir/art/compiler_filter.cpp.o"
+  "/home/ian/workspace/ian/oat-parser/elf/elfloader.cpp" "/home/ian/workspace/ian/oat-parser/CMakeFiles/oatparser.dir/elf/elfloader.cpp.o"
+  "/home/ian/workspace/ian/oat-parser/main.cpp" "/home/ian/workspace/ian/oat-parser/CMakeFiles/oatparser.dir/main.cpp.o"
+  "/home/ian/workspace/ian/oat-parser/oat/OATHeader.cpp" "/home/ian/workspace/ian/oat-parser/CMakeFiles/oatparser.dir/oat/OATHeader.cpp.o"
+  "/home/ian/workspace/ian/oat-parser/oat/OATParser.cpp" "/home/ian/workspace/ian/oat-parser/CMakeFiles/oatparser.dir/oat/OATParser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

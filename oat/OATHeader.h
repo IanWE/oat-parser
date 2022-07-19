@@ -20,11 +20,9 @@ class TypeLookupTable;
     public:
         OATHeader() { };
         ~OATHeader() { };
-        //static const uint8_t kOatMagic[4];//4
-        //static const uint8_t kOatVersion[4];//8
 	static constexpr std::array<uint8_t, 4> kOatMagic { { 'o', 'a', 't', '\n' } };
         // Last oat version changed reason: Remove unused trampoline entrypoints.
-        static constexpr std::array<uint8_t, 4> kOatVersion { { '1', '7', '0', '\0' } };//need redundant compilation in coresponding codes.
+        static constexpr std::array<uint8_t, 4> kOatVersion { { '1', '9', '5', '\0' } };//need redundant compilation in coresponding codes.
 
         static constexpr const char* kDex2OatCmdLineKey = "dex2oat-cmdline";
         static constexpr const char* kDebuggableKey = "debuggable";
@@ -33,8 +31,10 @@ class TypeLookupTable;
         static constexpr const char* kClassPathKey = "classpath";
         static constexpr const char* kBootClassPathKey = "bootclasspath";
         static constexpr const char* kBootClassPathChecksumsKey = "bootclasspath-checksums";
+	static constexpr const char* kApexVersionsKey = "apex-versions";
         static constexpr const char* kConcurrentCopying = "concurrent-copying";
         static constexpr const char* kCompilationReasonKey = "compilation-reason";
+	static constexpr const char* kRequiresImage = "requires-image";
         static constexpr const char kTrueValue[] = "true";
         static constexpr const char kFalseValue[] = "false";
 
@@ -87,10 +87,13 @@ class TypeLookupTable;
 	uint32_t oat_dex_files_offset_;
         uint32_t executable_offset_;
         uint32_t jni_dlsym_lookup_offset_;
+	uint32_t jni_dlsym_lookup_critical_trampoline_offset_;
+
         uint32_t quick_generic_jni_trampoline_offset_;
         uint32_t quick_imt_conflict_trampoline_offset_;
         uint32_t quick_resolution_trampoline_offset_;
         uint32_t quick_to_interpreter_bridge_offset_;
+	uint32_t nterp_trampoline_offset_;
       
         uint32_t key_value_store_size_;
         uint8_t key_value_store_[0];  // note variable width data at end

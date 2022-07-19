@@ -1,7 +1,7 @@
 #-*- coding:utf-8 -*-
 import lief
 
-oat = lief.DEX.parse("jar/classes.dex")
+oat = lief.DEX.parse("testfile/classes.dex")
 cls_ofs = dict()
 print("It has "+str(len(oat.classes))+" classes")
 for i in range(len(oat.classes)):

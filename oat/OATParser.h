@@ -121,6 +121,9 @@ class OATParser {
           return type_;
         }
 	const OatMethod GetOatMethod(uint32_t method_index) const;
+	const uint32_t GetOatMethodNumber() const{
+	  return num_methods_;
+	}
 	const OatMethodOffsets* GetOatMethodOffsets(uint32_t method_index) const;
 	uint32_t GetOatMethodOffsetsOffset(uint32_t method_index) const;
 	private:
@@ -128,23 +131,19 @@ class OATParser {
                             //ClassStatus status,
                             int16_t status,
                             OatClassType type,
-                            uint32_t bitmap_size,
+                            uint32_t num_methods,
                             const uint32_t* bitmap_pointer,
                             const OatMethodOffsets* methods_pointer)
-        : oat_file_(oat_file), status_(status), type_(type),
+        : oat_file_(oat_file), status_(status), type_(type), num_methods_(num_methods),
           bitmap_(bitmap_pointer), methods_pointer_(methods_pointer) {}
 
              const OATParser* const oat_file_;
-         
              //const ClassStatus status_;
              const int16_t status_;
-         
              const OatClassType type_;
-         
+	     const uint32_t num_methods_;
              const uint32_t* const bitmap_;
-         
              const OatMethodOffsets* const methods_pointer_;
-         
              friend class Art::OatDexFile;
            };
 
@@ -201,6 +200,8 @@ class OatDexFile {
              const uint8_t* lookup_table_data,
              const IndexBssMapping* method_bss_mapping,
              const IndexBssMapping* type_bss_mapping,
+             const IndexBssMapping* public_type_bss_mapping,
+             const IndexBssMapping* package_type_bss_mapping,
              const IndexBssMapping* string_bss_mapping,
              const uint32_t* oat_class_offsets_pointer,
              const DexLayoutSections* dex_layout_sections);
@@ -222,6 +223,8 @@ class OatDexFile {
   const uint8_t* const lookup_table_data_ = nullptr;
   const IndexBssMapping* const method_bss_mapping_ = nullptr;
   const IndexBssMapping* const type_bss_mapping_ = nullptr;
+  const IndexBssMapping* const public_type_bss_mapping_ = nullptr;
+  const IndexBssMapping* const package_type_bss_mapping_ = nullptr;
   const IndexBssMapping* const string_bss_mapping_ = nullptr;
   const uint32_t* const oat_class_offsets_pointer_ = nullptr;
   TypeLookupTable lookup_table_;

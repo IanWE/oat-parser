@@ -61,6 +61,7 @@ int main(int argc, char *argv[]) {
 	    c_ = option.substr(strlen("--m=")).data();
     }
 
+    std::cout<<"c_:"<<c_<<"test"<<std::endl;
      if (!ParseOatFile(read_file,c_)) {
             std::cout << "Failed to parse oat file: " << read_file << std::endl;
             return false;
